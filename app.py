@@ -6,7 +6,7 @@ import MessengersAPI.FBAPI as FBAPI
 import MessengersAPI.VKAPI as VKAPI
 import MessengersAPI.SkypeAPI as SkypeAPI
 
-# Запускаем прложение через номер средство коммуникации
+# Запускаем прложение через средство коммуникации из os.environ['Method_API']
 if __name__ == '__main__':
     API = os.environ['Method_API']
     if API == 'Telegram':
