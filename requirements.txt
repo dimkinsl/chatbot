@@ -1,0 +1,4 @@
+pyTelegramBotAPI==4.2.0
+pytest==6.2.5
+transitions==0.8.10
+
