@@ -1,8 +1,13 @@
 """Модуль чат-бота через Телеграм"""
+import logging
+
 import telebot
 import config
+
 from Models import lump, machine
 
+logger = telebot.logger
+telebot.logger.setLevel(logging.INFO)
 
 bot = telebot.TeleBot(config.TOKEN_TELEGRAM)
 
